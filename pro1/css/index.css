@@ -215,7 +215,7 @@ p {
 }
 @media (min-width: 1200px) {
 	.my_baner a {
-		width: 228px;
+		width: 222px;  
 		height: 80px;
 	}
 	.container-fluid.grey_bg {
@@ -256,12 +256,13 @@ p {
 		width: 18px;
 		height: 24px;	
 	}
-	.yangping a {
+	.yangping a,
+	.my_software {
 		height: 262px;
 		font-size: 30px;
 		color: #8d8b8e;
 	}
-	.my_more {
+	.	my_more {
 		display: block;
 		padding-left: 20px;
 		background: url(../img/icons.png) no-repeat;
@@ -277,6 +278,12 @@ p {
 	a {
 		font-size: 18px;
 	}
+	.yangping a,
+	.my_software {
+		height: 262px;
+		font-size: 30px;
+		color: #8d8b8e;
+	}
 }
 
 @media (min-width: 992px) {
@@ -291,9 +298,11 @@ p {
 	.zhichi {
 		height: 224px;
 	}
-	.yangping a {
+	.yangping a,
+	.my_software {
 		height: 224px;
-		font-size: 26px;
+		font-size: 30px;
+		color: #8d8b8e;
 	}  
 	#demo2 .carousel-inner {
 		height: 224px;
@@ -301,5 +310,53 @@ p {
 }
 
 @media (min-width: 1200px) {
-	
+	/* 小轮播图xl时大小改变 */
+	#demo2 .carousel-inner{
+		height: 224px;
+	}
+}
+/* 软件背景图 */
+.my_software {
+	background: url(../img/asidepic.jpg) no-repeat;
+	background-size: cover;
+}
+
+/* -------------------------底部样式----------------------- */
+/* 本页面所有的连接颜色都是同一个颜色 */
+a, p{
+	color: #8d8b8e; 
+	font-size: 14px;
+}
+/* 标题上横线 */
+.my_foot li:first-child a{
+	background: url(../img/icons.png) no-repeat;
+	background-position: 0 -488px;
+	font-size: 25px;
+	color: #212529;
+}
+.my_foot .my_more {
+	display: block;
+	padding-left: 20px;
+	background: url(../img/icons.png) no-repeat;
+	background-position: -84px -242px;
+} 
+
+/* --------------------最下面栏----------------- */
+.my_deep ul:first-child a:first-child {
+	display: block;
+	width: 25px;
+	height: 25px;
+	background: url(../img/social_icon.png) no-repeat;
+	background-position: -74px -27px;
+}
+.my_deep ul:first-child a:nth-child(2) {
+	display: block;
+	width: 25px;
+	height: 25px;
+	background: url(../img/social_icon.png) no-repeat 0 0;
+	background-position: -132px -27px;
+}
+/* 面包屑导航修改样式 */
+.breadcrumb-item + .breadcrumb-item::before {
+	content: "|";
 }
