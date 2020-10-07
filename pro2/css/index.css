@@ -1,0 +1,267 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.container {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #f2f2f2;
+}
+
+p {
+	color: #999999;
+}
+
+/* 轮播图 */
+/* 设置背景图 */
+#demo .carousel-inner .carousel-item {
+	width: 100%;
+	background-size: 100%;
+}
+
+#demo .carousel-inner .carousel-item:first-child {
+	background-image: url(../images/slide01.jpg);
+}
+
+#demo .carousel-inner .carousel-item:nth-child(2) {
+	background-image: url(../images/slide02.jpg);
+}
+
+#demo .carousel-inner .carousel-item:nth-child(3) {
+	background-image: url(../images/slide03.jpg);
+}
+
+#demo .carousel-inner .carousel-item:nth-child(4) {
+	background-image: url(../images/slide04.jpg);
+}
+
+#demo .carousel-inner .carousel-item:last-child {
+	background-image: url(../images/slide05.jpg);
+}
+
+/* 不用尺寸下的屏幕高度 */
+@media (min-width: 576px) {
+	#demo .carousel-inner .carousel-item {
+		height: 313px;
+	}
+}
+
+@media (min-width: 992px) {
+	#demo .carousel-inner .carousel-item {
+		height: 469px;
+	}
+}
+
+@media (min-width: 1200px) {
+	#demo .carousel-inner .carousel-item {
+		height: 552px;
+	}
+}
+
+/* 指示器 */
+.carousel-indicators li {
+  width: .8rem;
+  height: .8rem;
+	margin: .4rem;  
+	border-radius: 50%;  
+  background: #000;
+  opacity: 0.35;
+}
+
+.carousel-indicators .active {
+  background-color: #fff; 
+	opacity: 1;
+}
+
+.carousel-indicators {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#header {
+	background: rgba(0, 0, 0, 0);
+	color: #a6a6a6;
+	cursor: default;
+	height: 3.25em;
+	left: 0;
+	line-height: 3.25em;
+	position: fixed;
+	text-align: right;
+	top: 0;
+	width: 100%;
+	z-index: 10001;
+}
+
+#header > .logo {
+	display: inline-block;
+	height: inherit;
+	left: 1.25em;
+	line-height: inherit;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+}
+
+#header > .logo a {
+	font-size: 1.25em;
+	color: #FFF;
+	text-decoration: none;
+}
+
+#header > .logo a:hover {
+	color: rgba(255, 255, 255, 0.65);
+}
+
+#header > .logo span {
+	font-weight: 400;
+	font-size: .8em;
+	color: rgba(255, 255, 255, 0.65);
+}
+
+#header > a {
+	-moz-transition: color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+	display: inline-block;
+	padding: 0 0.75em;
+	color: inherit;
+	text-decoration: none;
+	color: #FFF;
+}
+
+#header > a:hover {
+	color: #f2f2f2;
+}
+
+.my_bg p:first-child:after {
+	content: '';
+	position: absolute;
+	margin: auto;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 30%;
+	height: 1px;
+	background-color: rgba(255, 255, 255, 0.65);
+}
+
+.article_font {
+	color: rgba(255, 255, 255, 0.65);
+	letter-spacing: .25rem;
+}
+
+
+.article_font  a{
+	color: #FFF;
+}
+
+.article_font  a:hover {
+	text-decoration: none;
+}
+
+/* 不用尺寸下的字体大小 */
+@media (min-width: 576px) {
+	.big_font {
+		font-size: 50px;
+		font-family: "Poppins", sans-serif;
+	}
+}
+
+@media (min-width: 768px) {
+	.big_font {
+		font-size: 60px;
+	}
+}
+
+@media (min-width: 992px) {
+	.big_font {
+		font-size: 80px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.big_font {
+		font-size: 103px;
+	}
+}
+
+.box {
+	text-align: center;
+}
+
+.box header p {
+	position: relative;
+	text-transform: uppercase;
+	font-size: .75rem;
+	font-weight: 300;
+	margin: 0 0 .25rem 0;
+	padding: 0 0 .75rem 0;
+	letter-spacing: .25rem;
+}
+
+.box header p:after {
+    content: '';
+    position: absolute;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.125);
+}
+
+.box header h2 {
+	font-weight: 300;
+	color: #000000;
+	margin-bottom: 25px;
+}
+
+.box .content > p {
+	font-size: 15px;
+	text-align: justify;
+}
+
+/* 镂空按钮字体颜色 */
+.btn-outline-light {
+	text-transform: uppercase;
+  color: #000;
+	border: 2px solid lightgray;
+}
+
+.btn-outline-light:hover {
+  border: 2px solid lightgray;
+}
+
+#two .box {
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 240px;
+}
+
+#two .box header p {
+	color: #999;;
+}
+
+#two .box header p:after {
+    background-color: rgba(220, 220, 220, 0.125);
+}
+
+#footer {
+	color: #bbb;
+	background-color: #000;
+}
+
+#footer span {
+	color: #bbb;
+}

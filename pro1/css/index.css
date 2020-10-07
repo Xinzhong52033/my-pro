@@ -7,6 +7,12 @@ p {
   padding: 0;  
 }
 
+/* 本页面所有的连接颜色都是同一个颜色 */
+a, p{
+	color: #8d8b8e; 
+}
+
+
 .my_logo {
 	padding-top: 2.625rem;
 	padding-bottom: 2rem;
@@ -262,7 +268,7 @@ p {
 		font-size: 30px;
 		color: #8d8b8e;
 	}
-	.	my_more {
+	.my_more {
 		display: block;
 		padding-left: 20px;
 		background: url(../img/icons.png) no-repeat;
@@ -307,6 +313,10 @@ p {
 	#demo2 .carousel-inner {
 		height: 224px;
 	}
+	
+	.news_height {
+		height: 224px;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -322,11 +332,7 @@ p {
 }
 
 /* -------------------------底部样式----------------------- */
-/* 本页面所有的连接颜色都是同一个颜色 */
-a, p{
-	color: #8d8b8e; 
-	font-size: 14px;
-}
+
 /* 标题上横线 */
 .my_foot li:first-child a{
 	background: url(../img/icons.png) no-repeat;

@@ -1,0 +1,354 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>pro3</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		
+		<!-- 导航 -->
+		<header class="container-fluid bg-dark">
+			<div class="container">
+				<div class="navbar navbar-dark bg-dark navbar-expand-lg ">
+					<!-- 1. 最左边, 最前边永远显示的菜单项 -->
+					<a class="navbar-brand d-flex align-items-center" href="">
+						<img src="https://cdn.shenzhenware.com/assets/shenzhenware-svg-logo-97a8279280c09bf70e34b482739ad8b2.svg" >
+						<p class="text-white m-0 font_small pl-1">深圳湾</p>
+					</a>
+					<!-- 2. md以下显示, md以上隐藏的按钮 -->  
+					<button data-toggle="collapse" data-target="#c1" class="navbar-toggler">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<!-- 3. 隐藏的菜单 -->
+					<div id="c1" class="collapse navbar-collapse justify-content-end">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link text-white" href="">首页</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="">动态</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="">测评</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="">特稿</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="">专题</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="">智选</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="">活动</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="">搜索</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="">登录</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="">注册</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<!-- 海报 -->
+		<header class="container-fluid baner_image mb-3">
+			<img class="w-100" src="./img/banner_2020_v3.jpeg">
+		</header>
+		
+		<!-- 内容区 -->
+		<section class="container-fluid row no-gutters content_area mb-5">
+			
+			<!-- 左侧 -->
+			<div class="col-sm-12 col-lg-8">
+				<div class="mr-1">
+					
+					<!-- 卡1 -->
+					<div class="card my_shadow row no-gutters flex-row">
+						<!-- 图片 -->
+						<a class="col-lg-4 col-sm-6 " href="">
+							<span class="img_tags">行业观察</span>
+							<img class="w-100" src="./img/球形音箱_会飞的监控摄像头_你给亚马逊今年的新硬件打几分.jpg" >
+						</a>
+						<!-- 内容 -->
+						<div class="activity_content col-lg-8 col-sm-6 pl-3 d-flex flex-column justify-content-between">
+							<!-- 标题 -->
+							<a class="my_title" href="">球形音箱、会飞的监控摄像头，你给亚马逊今年的新硬件打几分？</a>
+							<!-- 内容简介 -->
+							<p>亚马逊秋季硬件发布会详细汇总：Echo 转身变成球形音箱，Ring 放「飞」了监控摄像头，AZ1 芯片让语音响应更快了，Alexa 有了更强的学习能力</p>
+							<!-- 底部信息 分类 作者 日期 -->
+							<div class="activity_content_bottom d-flex justify-content-between">
+								<span class="span_left">
+									<a class="tag_item" href="">#亚马逊</a>
+									<a class="tag_item" href="">#amazon</a>
+									<a class="author pl-3" href="">周森森</a>
+								</span>
+								<span class="span_right">2020-09-30</span>
+							</div>
+						</div>
+					</div>
+					
+					<!-- 卡2 -->
+					<div class="card my_shadow row no-gutters flex-row">
+						<!-- 图片 -->
+						<a class="col-lg-4 col-sm-6 " href="">
+							<span class="img_tags">产品资讯</span>
+							<img class="w-100" src="./img/Google_TV_也来了_还有更好听的_Nest_Audio_智能音箱_两款_Pixel_手机.jpg" >
+						</a>
+						<!-- 内容 -->
+						<div class="activity_content col-lg-8 col-sm-6 pl-3 d-flex flex-column justify-content-between">
+							<!-- 标题 -->
+							<a class="my_title" href="">Google TV 也来了，还有更好听的 Nest Audio 智能音箱，两款 Pixel 手机</a>
+							<!-- 内容简介 -->
+							<p>一文回顾 Google 秋季硬件发布会</p>
+							<!-- 底部信息 分类 作者 日期 -->
+							<div class="activity_content_bottom d-flex justify-content-between">
+								<span class="span_left">
+									<a class="tag_item" href="">#Google Docs</a>
+									<a class="author pl-3" href="">陳壹零</a>
+								</span>
+								<span class="span_right">2020-09-30</span>
+							</div>
+						</div>
+					</div>
+					
+					<!-- 卡3 -->
+					<div class="card my_shadow row no-gutters flex-row">
+						<!-- 图片 -->
+						<a class="col-lg-4 col-sm-6 " href="">
+							<span class="img_tags">产品资讯</span>
+							<img class="w-100" src="./img/小米电视大师_4K_8K_双发_82_英寸_8K_至尊版售价_49999_元.jpg" >
+						</a>
+						<!-- 内容 -->
+						<div class="activity_content col-lg-8 col-sm-6 pl-3 d-flex flex-column justify-content-between">
+							<!-- 标题 -->
+							<a class="my_title" href="">小米电视大师 4K、8K 双发，82 英寸 8K 至尊版售价 49999 元</a>
+							<!-- 内容简介 -->
+							<p>小米为发烧而生</p>
+							<!-- 底部信息 分类 作者 日期 -->
+							<div class="activity_content_bottom d-flex justify-content-between">
+								<span class="span_left">
+									<a class="tag_item" href="">#小米</a>
+									<a class="author pl-3" href="">顾晓月</a>
+								</span>
+								<span class="span_right">2020-09-29</span>
+							</div>
+						</div>
+					</div>
+					
+					<!-- 卡4 -->
+					<div class="card my_shadow row no-gutters flex-row">
+						<!-- 图片 -->
+						<a class="col-lg-4 col-sm-6 " href="">
+							<span class="img_tags">产品测评</span>
+							<img class="w-100" src="./img/OPPO_能出心电图的手表来啦_这里是我们的完整体验.png" >
+						</a>
+						<!-- 内容 -->
+						<div class="activity_content col-lg-8 col-sm-6 pl-3 d-flex flex-column justify-content-between">
+							<!-- 标题 -->
+							<a class="my_title" href="">OPPO 能出心电图的手表来啦！这里是我们的完整体验</a>
+							<!-- 内容简介 -->
+							<p>在全球新冠疫情背景下，越来越多的人开始意识到要主动健康的重要性。OPPO Watch ECG 版的发布，不管对于用户还是整个穿戴设备市场来说，都是具有重大意义的。</p>
+							<!-- 底部信息 分类 作者 日期 -->
+							<div class="activity_content_bottom d-flex justify-content-between">
+								<span class="span_left">
+									<a class="tag_item" href="">#OPPO</a>
+									<a class="tag_item" href="">#ECG</a>
+									<a class="author pl-3" href="">陳壹零</a>
+								</span>
+								<span class="span_right">2020-09-29</span>
+							</div>
+						</div>
+					</div>
+					
+					<!-- 卡5 -->
+					<div class="card my_shadow row no-gutters flex-row">
+						<!-- 图片 -->
+						<a class="col-lg-4 col-sm-6 " href="">
+							<span class="img_tags">解决方案</span>
+							<img class="w-100" src="./img/307ea78a-a41b-4fba-8890-cd1710d0fb8d.png" >
+						</a>
+						<!-- 内容 -->
+						<div class="activity_content col-lg-8 col-sm-6 pl-3 d-flex flex-column justify-content-between">
+							<!-- 标题 -->
+							<a class="my_title" href="">极豆科技推出车内语音助手 MicroBean，与云端服务深入结合</a>
+							<!-- 内容简介 -->
+							<p>这也是微软人工智能和物联网实验室的技术赋能</p>
+							<!-- 底部信息 分类 作者 日期 -->
+							<div class="activity_content_bottom d-flex justify-content-between">
+								<span class="span_left">
+									<a class="tag_item" href="">#语音助手</a>
+									<a class="tag_item" href="">#车载语音</a>
+									<a class="author pl-3" href="">周森森</a>
+								</span>
+								<span class="span_right">2020-09-28</span>
+							</div>
+						</div>
+					</div>
+					
+					<!-- 动图 -->
+					<img class="w-100 mb-4" src="./img/banner___.gif" alt="">
+					
+					<!-- 卡6 -->
+					<div class="card my_shadow row no-gutters flex-row">
+						<!-- 图片 -->
+						<a class="col-lg-4 col-sm-6 " href="">
+							<span class="img_tags">解决方案</span>
+							<img class="w-100" src="./img/511ace8def3f604.png.jpeg" >
+						</a>
+						<!-- 内容 -->
+						<div class="activity_content col-lg-8 col-sm-6 pl-3 d-flex flex-column justify-content-between">
+							<!-- 标题 -->
+							<a class="my_title" href="">地平线发布征程 3 车规级 AI 芯片，征程 5 已在研发中</a>
+							<!-- 内容简介 -->
+							<p>搭载征程 2 的 A 级纯电 SUV 奇瑞新能源蚂蚁业已上市</p>
+							<!-- 底部信息 分类 作者 日期 -->
+							<div class="activity_content_bottom d-flex justify-content-between">
+								<span class="span_left">
+									<a class="tag_item" href="">#地平线</a>
+									<a class="tag_item" href="">#智能座驾</a>
+									<a class="author pl-3" href="">周森森</a>
+								</span>
+								<span class="span_right">2020-09-28</span>
+							</div>
+						</div>
+					</div>
+					
+					<!-- 查看更多 -->
+					<div class="more_card my_shadow">
+						<a href="">查看更多...</a>
+					</div>
+					
+				</div>
+			</div>
+			
+			<!-- 右侧 -->
+			<div class="right col-lg-4">
+				<div class="pl-2">
+					<!-- 右上角广告 -->
+					<a class="bg-white p-3 d-block my_shadow mb-3" href="">
+						<img class="w-100" src="./img/WechatIMG75.png" alt="">
+					</a> 
+					<!-- 推荐专题 -->
+					<div class="recommend my_shadow p-3">
+						<a class="rec_title mb-2 d-block" href="">推荐专题</a>
+						<!-- 推荐专题1 -->
+						<a class="mb-3" href="">
+							<img class="w-100 mb-4 d-block" src="./img/推荐专题1.jpeg" alt="">
+						</a>
+						<!-- 推荐专题2 -->
+						<a class="mb-3" href="">
+							<img class="w-100 mb-4 d-block" src="./img/推荐专题2.jpeg" alt="">
+						</a>
+						<!-- 推荐专题3 -->
+						<a class="mb-3" href="">
+							<img class="w-100 mb-4 d-block" src="./img/推荐专题3.jpeg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+		
+		<!-- 底部栏 -->
+		<footer class="container-fluid bg-dark my_footer px-5 pt-5 pb-3">
+			
+			<!-- 链接 -->
+			<div class="container mx-auto d-flex justify-content-around">
+				<!-- 产品服务 -->
+				<ul class="nav flex-column text-center">
+					<li>
+						<h3>产品和服务</h3>
+					</li>
+					<li>
+						<a href="">媒体&社区</a>
+					</li>
+					<li>
+						<a href="">咨询顾问</a>
+					</li>
+					<li>
+						<a href="">品牌营销</a>
+					</li>
+					<li>
+						<a href="">企业会员</a>
+					</li>
+				</ul>
+				<!-- 关于我们 -->
+				<ul class="nav flex-column text-center">
+					<li>
+						<h3>关于我们</h3>
+					</li>
+					<li>
+						<a href="">关于我们</a>
+					</li>
+					<li>
+						<a href="">加入我们</a>
+					</li>
+					<li>
+						<a href="">联系我们</a>
+					</li>
+					<li>
+						<a href="">用户协议</a>
+					</li>
+					<li>
+						<a href="">About ShenzhenWare</a>
+					</li>
+				</ul>
+				<!-- 相关链接 -->
+				<div class="text-center my_link">
+					<h3>我们也在这里</h3>
+					<div  class="d-flex justify-content-between">
+						<ul class="nav flex-column">
+							<li>
+								<a href="">微博</a>
+							</li>
+							<li>
+								<a href="">今日头条</a>
+							</li>
+							<li>
+								<a href="">腾讯新闻</a>
+							</li>
+							<li>
+								<a href="">Facebook</a>
+							</li>
+						</ul>
+						<ul class="nav flex-column">
+							<li>
+								<a href="">知乎</a>
+							</li>
+							<li>
+								<a href="">搜狐号</a>
+							</li>
+							<li>
+								<a href="">百家号</a>
+							</li>
+							<li>
+								<a href="">Twitter</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<!-- 底部线条 -->
+			<div class="container my_line"></div>
+			
+			<!-- 版权声明 -->
+			<a class="d-block text-center" href="">Copyright @ 2020 深圳湾 粤ICP设备14084897号-1</a>
+			
+		</footer>
+		
+	</body>
+</html>
